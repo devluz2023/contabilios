@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15B70C82C051950005C474C /* contabiliosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B70C72C051950005C474C /* contabiliosApp.swift */; };
+		B15B70CA2C051950005C474C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B70C92C051950005C474C /* ContentView.swift */; };
+		B15B70CC2C051954005C474C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15B70CB2C051954005C474C /* Assets.xcassets */; };
+		B15B70CF2C051954005C474C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15B70CE2C051954005C474C /* Preview Assets.xcassets */; };
+		B15B70D92C051954005C474C /* contabiliosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B70D82C051954005C474C /* contabiliosTests.swift */; };
+		B15B70E32C051954005C474C /* contabiliosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B70E22C051954005C474C /* contabiliosUITests.swift */; };
+		B15B70E52C051954005C474C /* contabiliosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B70E42C051954005C474C /* contabiliosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15B70D52C051954005C474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15B70BC2C051950005C474C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15B70C32C051950005C474C;
+			remoteInfo = contabilios;
+		};
+		B15B70DF2C051954005C474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15B70BC2C051950005C474C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15B70C32C051950005C474C;
+			remoteInfo = contabilios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B15B70C42C051950005C474C /* contabilios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contabilios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15B70C72C051950005C474C /* contabiliosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contabiliosApp.swift; sourceTree = "<group>"; };
+		B15B70C92C051950005C474C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B15B70CB2C051954005C474C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B15B70CE2C051954005C474C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15B70D42C051954005C474C /* contabiliosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contabiliosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15B70D82C051954005C474C /* contabiliosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contabiliosTests.swift; sourceTree = "<group>"; };
+		B15B70DE2C051954005C474C /* contabiliosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contabiliosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15B70E22C051954005C474C /* contabiliosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contabiliosUITests.swift; sourceTree = "<group>"; };
+		B15B70E42C051954005C474C /* contabiliosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contabiliosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15B70C12C051950005C474C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15B70D12C051954005C474C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15B70DB2C051954005C474C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15B70BB2C051950005C474C = {
+			isa = PBXGroup;
+			children = (
+				B15B70C62C051950005C474C /* contabilios */,
+				B15B70D72C051954005C474C /* contabiliosTests */,
+				B15B70E12C051954005C474C /* contabiliosUITests */,
+				B15B70C52C051950005C474C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B15B70C52C051950005C474C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15B70C42C051950005C474C /* contabilios.app */,
+				B15B70D42C051954005C474C /* contabiliosTests.xctest */,
+				B15B70DE2C051954005C474C /* contabiliosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15B70C62C051950005C474C /* contabilios */ = {
+			isa = PBXGroup;
+			children = (
+				B15B70C72C051950005C474C /* contabiliosApp.swift */,
+				B15B70C92C051950005C474C /* ContentView.swift */,
+				B15B70CB2C051954005C474C /* Assets.xcassets */,
+				B15B70CD2C051954005C474C /* Preview Content */,
+			);
+			path = contabilios;
+			sourceTree = "<group>";
+		};
+		B15B70CD2C051954005C474C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B15B70CE2C051954005C474C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B15B70D72C051954005C474C /* contabiliosTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15B70D82C051954005C474C /* contabiliosTests.swift */,
+			);
+			path = contabiliosTests;
+			sourceTree = "<group>";
+		};
+		B15B70E12C051954005C474C /* contabiliosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B15B70E22C051954005C474C /* contabiliosUITests.swift */,
+				B15B70E42C051954005C474C /* contabiliosUITestsLaunchTests.swift */,
+			);
+			path = contabiliosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B15B70C32C051950005C474C /* contabilios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15B70E82C051954005C474C /* Build configuration list for PBXNativeTarget "contabilios" */;
+			buildPhases = (
+				B15B70C02C051950005C474C /* Sources */,
+				B15B70C12C051950005C474C /* Frameworks */,
+				B15B70C22C051950005C474C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = contabilios;
+			productName = contabilios;
+			productReference = B15B70C42C051950005C474C /* contabilios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15B70D32C051954005C474C /* contabiliosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15B70EB2C051954005C474C /* Build configuration list for PBXNativeTarget "contabiliosTests" */;
+			buildPhases = (
+				B15B70D02C051954005C474C /* Sources */,
+				B15B70D12C051954005C474C /* Frameworks */,
+				B15B70D22C051954005C474C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15B70D62C051954005C474C /* PBXTargetDependency */,
+			);
+			name = contabiliosTests;
+			productName = contabiliosTests;
+			productReference = B15B70D42C051954005C474C /* contabiliosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B15B70DD2C051954005C474C /* contabiliosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15B70EE2C051954005C474C /* Build configuration list for PBXNativeTarget "contabiliosUITests" */;
+			buildPhases = (
+				B15B70DA2C051954005C474C /* Sources */,
+				B15B70DB2C051954005C474C /* Frameworks */,
+				B15B70DC2C051954005C474C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15B70E02C051954005C474C /* PBXTargetDependency */,
+			);
+			name = contabiliosUITests;
+			productName = contabiliosUITests;
+			productReference = B15B70DE2C051954005C474C /* contabiliosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15B70BC2C051950005C474C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B15B70C32C051950005C474C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B15B70D32C051954005C474C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B15B70C32C051950005C474C;
+					};
+					B15B70DD2C051954005C474C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B15B70C32C051950005C474C;
+					};
+				};
+			};
+			buildConfigurationList = B15B70BF2C051950005C474C /* Build configuration list for PBXProject "contabilios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B15B70BB2C051950005C474C;
+			productRefGroup = B15B70C52C051950005C474C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B15B70C32C051950005C474C /* contabilios */,
+				B15B70D32C051954005C474C /* contabiliosTests */,
+				B15B70DD2C051954005C474C /* contabiliosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15B70C22C051950005C474C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15B70CF2C051954005C474C /* Preview Assets.xcassets in Resources */,
+				B15B70CC2C051954005C474C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15B70D22C051954005C474C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15B70DC2C051954005C474C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15B70C02C051950005C474C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15B70CA2C051950005C474C /* ContentView.swift in Sources */,
+				B15B70C82C051950005C474C /* contabiliosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15B70D02C051954005C474C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15B70D92C051954005C474C /* contabiliosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15B70DA2C051954005C474C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15B70E52C051954005C474C /* contabiliosUITestsLaunchTests.swift in Sources */,
+				B15B70E32C051954005C474C /* contabiliosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15B70D62C051954005C474C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15B70C32C051950005C474C /* contabilios */;
+			targetProxy = B15B70D52C051954005C474C /* PBXContainerItemProxy */;
+		};
+		B15B70E02C051954005C474C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15B70C32C051950005C474C /* contabilios */;
+			targetProxy = B15B70DF2C051954005C474C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B15B70E62C051954005C474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B15B70E72C051954005C474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B15B70E92C051954005C474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"contabilios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = faluz.contabilios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B15B70EA2C051954005C474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"contabilios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = faluz.contabilios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B15B70EC2C051954005C474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = faluz.contabiliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contabilios.app/contabilios";
+			};
+			name = Debug;
+		};
+		B15B70ED2C051954005C474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = faluz.contabiliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contabilios.app/contabilios";
+			};
+			name = Release;
+		};
+		B15B70EF2C051954005C474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = faluz.contabiliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = contabilios;
+			};
+			name = Debug;
+		};
+		B15B70F02C051954005C474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = faluz.contabiliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = contabilios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15B70BF2C051950005C474C /* Build configuration list for PBXProject "contabilios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15B70E62C051954005C474C /* Debug */,
+				B15B70E72C051954005C474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15B70E82C051954005C474C /* Build configuration list for PBXNativeTarget "contabilios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15B70E92C051954005C474C /* Debug */,
+				B15B70EA2C051954005C474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15B70EB2C051954005C474C /* Build configuration list for PBXNativeTarget "contabiliosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15B70EC2C051954005C474C /* Debug */,
+				B15B70ED2C051954005C474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15B70EE2C051954005C474C /* Build configuration list for PBXNativeTarget "contabiliosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15B70EF2C051954005C474C /* Debug */,
+				B15B70F02C051954005C474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15B70BC2C051950005C474C /* Project object */;
+}
